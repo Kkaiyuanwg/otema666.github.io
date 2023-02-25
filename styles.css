@@ -1,0 +1,50 @@
+ body {
+        font-family: Arial, sans-serif;
+        background-color: #B1C5FF;
+      }
+
+      .rule {
+        margin: 0 auto;
+        width: 80%;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        text-align: center;
+      }
+
+      .rule-header {
+        font-size: 36px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        background-color: rgba(255,0,0,0.6);
+      }
+
+      .rule-list {
+        display: inline-block; /* Hacemos que la lista sea inline-block */
+        text-align: left; /* Centramos la lista en el contenedor */
+        margin: 0; /* Quitamos el margen de la lista */
+        padding-left: 20px; /* Añadimos padding izquierdo para la lista */
+      }
+
+      .rule-list li {
+        list-style: none;
+        margin-bottom: 10px;
+        font-size: 24px;
+      }
+
+      .rule-list li:before {
+        content: "•";
+        margin-right: 5px;
+      }
+  table{
+    margin: 0 auto;
+  }
+
+  td{
+    padding-right: 50px;
+  }
+
+  img{
+    width: 100px;
+    height: auto;
+  }
